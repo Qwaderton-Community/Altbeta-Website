@@ -1,0 +1,68 @@
+body {
+    font-family: "Lucida Console", Monaco, monospace;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    text-align: center;
+    max-width: 304.1px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border: 2px solid #333;
+    margin: 0 auto;
+}
+.logo {
+    width: 256px;
+    height: 65px;
+    margin: auto;
+    image-rendering: pixelated;
+}
+.button {
+    display: block;
+    background-color: #5c5;
+    color: #fff!important;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 2px solid #000;
+}
+
+#discord {background-color: #5865F2;}
+#wiki {background-color: #5b7c96;}
+#forum {background-color: #3498db;}
+#servers {background-color: #27ae60;}
+#account {background-color: #f39c12;}
+#servers {background-color: #8e44ad;}
+
+footer {
+    max-width: 356px;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #888;
+}
+
+.form-inp, .form-btn {
+    background-color: #1e1e1e; /* Slightly lighter than the main background */
+    padding: 10px 20px;
+    border: 2px solid #333; /* Darker border for a subtle contrast */
+    color: #e0e0e0; /* Lighter text color for better readability */
+}
+
+.form-inp:focus {
+    border-color: #5865F2; /* Highlight border color on focus */
+}
+
+.form-btn {
+    background-color: #5865F2; /* Distinct button color */
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    background-color: #4852c8; /* Slightly darker on hover */
+}
+
+a, a:visited {
+    color:#27ae60;
+}
